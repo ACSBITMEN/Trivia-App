@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>¿Quien quiere ser millonario?</title>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid text-center">
+            <h1 class="text-center">Desafia tu conocimiento</h1>
+        </div>
+    </nav>
+    <main class="container">
+        <div id="mainSection" class="mt-5">
+            <p id="mainStatement" class="fw-normal text-center">
+                ¡Bienvenido a nuestra emocionante aplicación de trivias! Pon a prueba tus conocimientos en diversas categorías y desafía tus habilidades mentales. Responde preguntas cronometradas, avanza en niveles desafiantes y compite contra amigos y jugadores de todo el mundo. Descarga nuestra app y sumérgete en un mundo de diversión, conocimiento y emoción mientras te conviertes en el campeón de las trivias. ¡Demuestra tu sabiduría y disfruta del desafío!
+            </p>
+            <div id="mainOpcions" class="d-flex justify-content-center mt-5">
+                <button id="comenzar" type="button" class="btn btn-primary btn-lg">Comenzar</button>
+            </div>
+        </div>
+        <div id="opciones" class="mt-5">
+            <p id="opcionStatement" class="fw-normal text-center">
+                Antes de comenzar, queremos asegurarnos de brindarte la mejor experiencia posible. Serán 10 preguntas, por favor, tómate un momento para seleccionar tus preferencias.
+            </p>
+            <div id="opcions" class="">
+                <p>
+                    Escoge entre una amplia variedad de categorías emocionantes que abarcan desde historia y ciencia hasta deportes y música.
+                </p>
+                <select name="" id="selectCategories"></select>
+                </ul>
+                <p>
+                    Luego, elige la dificultad que mejor se adapte a tu nivel de conocimiento, ya sea principiante, intermedio o experto.
+                </p>
+                <select id="selectDifficulty"></select>
+                <p>
+                    Por último, elige el tipo de respuestas que prefieras, ya sea opción múltiple o verdadero/falso.
+                </p>
+                <select id="selectType"></select>
+                <div class="d-grid gap-1">
+                    <button id="letsGo" type="button" class="d-block btn btn-primary btn-lg">Let's Go</button>
+                    <button id="volverBtn" type="button" class="d-block btn btn-primary btn-lg mt-2">Volver</button>
+                </div>
+            </div>
+        </div>
+        <div id="mainQuiz">
+
+        </div>
+    </main>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+<script src="trivia.js"></script>
+</html>

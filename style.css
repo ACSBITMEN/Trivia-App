@@ -1,0 +1,17 @@
+h1 {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+#statement {
+    width: 100%;
+    margin: auto;
+}
+
+#opciones {
+    display: none;
+}
